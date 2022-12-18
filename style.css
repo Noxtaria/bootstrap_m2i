@@ -1,0 +1,30 @@
+img {
+    filter: grayscale(100%);
+}
+img:hover {
+    filter: grayscale(0);
+}
+
+.aspect-cover {
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.img-rs > img {
+    width: 40px;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid > .row > div {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+body{
+    background-color: rgb(91, 75, 75);
+}
